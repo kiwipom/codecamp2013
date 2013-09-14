@@ -3,7 +3,7 @@ using Funcy.Domain;
 
 namespace Funcy.Services
 {
-    public class CustomerService : ICustomerService
+    public class CustomerService
     {
         private readonly ICacheService _cacheService;
         private readonly IOrdersRepository _ordersRepository;
